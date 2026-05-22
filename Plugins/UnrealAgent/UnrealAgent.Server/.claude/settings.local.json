@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/User/.claude/**)",
+      "Bash(where claude:*)",
+      "Bash(curl:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.meziantou.net)",
+      "WebFetch(domain:www.codestudy.net)",
+      "Bash(find C:CodeUnrealAgentStudy13.멘션Week52AgentPluginsUnrealAgentUnrealAgent.Server -type f \\\\\\(-name *.cs -o -name *.ts -o -name *.tsx \\\\\\))",
+      "Bash(find C:CodeUnrealAgentStudy13.멘션Week52AgentPluginsUnrealAgentUnrealAgent.Server -type f -name *.js -o -name *.ts -o -name *.tsx -o -name *.razor)",
+      "Bash(xargs grep:*)",
+      "Bash(find C:CodeUnrealAgentStudy13.멘션Week52AgentPluginsUnrealAgentUnrealAgent.Server -type f -name *Chat*)"
+    ]
+  }
+}
